@@ -28,7 +28,7 @@
 		<div class="container">
 		<div class="site-branding col-md-12 col-lg-3">
 			<?php if ( has_header_image() ){ ?>
-				<img class="site-image" src="<?php echo(get_header_image());?>" alt="<?php echo(get_bloginfo('title'));?>"/>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="site-image" src="<?php echo(get_header_image());?>" alt="<?php echo(get_bloginfo('title'));?>"/></a>
 			<?php }else{ ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<p class="site-descrition"><?php bloginfo( 'description' ); ?></p>

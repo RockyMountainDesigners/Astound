@@ -77,6 +77,8 @@ function astound_setup() {
 		'default-image' => '',
 	) ) );
 }
+
+add_theme_support('post-thumbnails');
 endif;
 add_action( 'after_setup_theme', 'astound_setup' );
 

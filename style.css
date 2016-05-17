@@ -464,7 +464,7 @@ Main Navigation
       display: inline-block;
       border-bottom: 2px solid transparent; }
       #site-navigation > div > ul > li:hover {
-        border-bottom: 2px solid #003459; }
+        border-bottom: 2px solid #2b5799; }
       #site-navigation > div > ul > li > a {
         display: block;
         padding: 2.5em .7em;
@@ -474,7 +474,7 @@ Main Navigation
       #site-navigation > div > ul > li > ul {
         display: none;
         background-color: #ffffff;
-        border-top: 2px solid #003459;
+        border-top: 2px solid #2b5799;
         box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
         padding: 0;
         margin: 0;
@@ -491,7 +491,7 @@ Main Navigation
             #site-navigation > div > ul > li > ul > li > a:hover {
               color: #ffffff;
               text-decoration: none;
-              background-color: #003459; }
+              background-color: #2b5799; }
           #site-navigation > div > ul > li > ul > li > ul {
             display: none;
             padding: 0;
@@ -501,9 +501,9 @@ Main Navigation
             top: -0.1em;
             z-index: 1;
             min-width: 150px;
-            background-color: #003459;
+            background-color: #2b5799;
             box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
-            border-top: 2px solid #003459; }
+            border-top: 2px solid #2b5799; }
             #site-navigation > div > ul > li > ul > li > ul > li {
               list-style: none; }
               #site-navigation > div > ul > li > ul > li > ul > li > a {
@@ -518,6 +518,8 @@ Main Navigation
             display: block; }
       #site-navigation > div > ul > li:hover > ul {
         display: block; }
+    #site-navigation > div > ul > .current_page_item {
+      border-bottom: 2px solid #2b5799; }
 
 #site-navigation-mobile {
   display: none; }
@@ -532,10 +534,10 @@ Mobile Navigation
   #site-navigation-mobile {
     text-align: center;
     display: block; }
-    #site-navigation-mobile #mobile-menu-button {
+    #site-navigation-mobile > #mobile-menu-button {
       font-size: 2em;
       text-align: center;
-      margin: 1em; }
+      margin-bottom: 1em; }
     #site-navigation-mobile > div {
       display: none; }
       #site-navigation-mobile > div > ul {
@@ -543,19 +545,20 @@ Mobile Navigation
         padding: 0; }
         #site-navigation-mobile > div > ul > li {
           list-style: none;
-          border-bottom: 1px solid #003459; }
+          border-bottom: 1px solid #2b5799; }
           #site-navigation-mobile > div > ul > li > a {
             display: block;
             padding: 1em;
             color: #000000; }
             #site-navigation-mobile > div > ul > li > a:hover {
               text-decoration: none;
-              background-color: #003459;
+              background-color: #2b5799;
               color: #ffffff; }
           #site-navigation-mobile > div > ul > li > ul {
             margin: 0;
             padding: 0;
-            background-color: #003459; }
+            background-color: #2b5799;
+            display: none; }
             #site-navigation-mobile > div > ul > li > ul > li {
               list-style: none;
               border-bottom: 1px solid #ffffff; }
@@ -570,17 +573,18 @@ Mobile Navigation
               #site-navigation-mobile > div > ul > li > ul > li > ul {
                 margin: 0;
                 padding: 0;
-                background-color: #ffffff; }
+                background-color: #ffffff;
+                display: none; }
                 #site-navigation-mobile > div > ul > li > ul > li > ul > li {
                   list-style: none;
-                  border-bottom: 1px solid #003459; }
+                  border-bottom: 1px solid #2b5799; }
                   #site-navigation-mobile > div > ul > li > ul > li > ul > li > a {
                     color: #000000;
                     display: block;
                     padding: 1em; }
                     #site-navigation-mobile > div > ul > li > ul > li > ul > li > a:hover {
                       text-decoration: none;
-                      background-color: #003459;
+                      background-color: #2b5799;
                       color: #ffffff; }
                   #site-navigation-mobile > div > ul > li > ul > li > ul > li:last-child {
                     border-bottom: none; } }
